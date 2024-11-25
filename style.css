@@ -1,0 +1,57 @@
+:root {
+  background-color: lightcyan;
+  padding: 1%;
+  margin: 1%;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.nav {
+  padding-bottom: 1%;
+}
+
+a {
+  color: black;
+  font-size: larger;
+}
+
+.buscador {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1%;
+}
+
+.buscador > input {
+  flex-basis: 75%;
+  padding: 0.5em;
+}
+
+.buscador > button {
+  flex-basis: 25%;
+  background-color: white;
+  padding: 0.5em;
+}
+
+ul {
+  display: grid;
+  width: 89vw;
+  gap: 1em;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+h1,
+h2 {
+  font-family: sans-serif;
+}
+
+footer {
+  border: 2px solid black;
+}
+

@@ -3,10 +3,81 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    </style>
   <link rel="stylesheet" href="./style.css">
-  <title>Document</title>
+  <title>Cam Security</title>
+  <link rel="icon" href="./assets/icons8-camara-de-manzana-16.png" type="image/png">
 </head>
 <body>
-  
+  <header>
+    <h1>Cam Security</h1>
+    <nav class="nav">
+      <a href="#">Inicio</a>
+      <a href="#">Últimos productos</a>
+      <a href="#">Plan de instalación</a>
+      <a href="#">Opiniones</a>
+    </nav>
+  </header>
+  <main>
+    <section class="buscador">
+      <input type="search" placeholder="Buscar" role="searchbox" aria-label="Search through our site content">
+      <button type="search">Buscar</button>
+    </section>
+    <section class="productos">
+      <h2>Productos</h2>
+      <ul>
+        <li>
+          <a href="https://www.amazon.es/Tapo-C410-Kit-vigilancia-bidireccional/dp/B0D544WSFP?pd_rd_w=4XXhS&content-id=amzn1.sym.dfe71603-78c0-4094-9a16-553f9e2260a0&pf_rd_p=dfe71603-78c0-4094-9a16-553f9e2260a0&pf_rd_r=TSWT2A9NM5SW8YHQ061E&pd_rd_wg=CAc3e&pd_rd_r=356ced43-ffe7-427f-a87f-de1f963cffb5&pd_rd_i=B0D544WSFP&ref_=oct_dx_dotd_B0D544WSFP&th=1" rel="noopener" title="C410">
+          <img src="https://m.media-amazon.com/images/I/51x1YmtiAxL._SR480,440_.jpg" alt="C410" width="200px" height="200px"></a>
+        </li>
+        <li>
+          <a href="https://www.amazon.es/tapo-C520WS-Vigilancia-Resoluci%C3%B3n-Seguimiento/dp/B0CCW8GHT8?pd_rd_w=4XXhS&content-id=amzn1.sym.dfe71603-78c0-4094-9a16-553f9e2260a0&pf_rd_p=dfe71603-78c0-4094-9a16-553f9e2260a0&pf_rd_r=TSWT2A9NM5SW8YHQ061E&pd_rd_wg=CAc3e&pd_rd_r=356ced43-ffe7-427f-a87f-de1f963cffb5&pd_rd_i=B0CCW8GHT8&ref_=oct_dx_dotd_B0CCW8GHT8" rel="noopener" title="C520WS">
+          <img src="https://m.media-amazon.com/images/I/41Pi+YIFyvL._SR480,440_.jpg" alt="C520WS" width="200px" height="200px"></a>
+        </li>
+        <li>
+          <a href="https://www.amazon.es/TP-Link-Vigilancia-Movimiento-Tapo-C200/dp/B07XLML2YS?pd_rd_w=4XXhS&content-id=amzn1.sym.dfe71603-78c0-4094-9a16-553f9e2260a0&pf_rd_p=dfe71603-78c0-4094-9a16-553f9e2260a0&pf_rd_r=TSWT2A9NM5SW8YHQ061E&pd_rd_wg=CAc3e&pd_rd_r=356ced43-ffe7-427f-a87f-de1f963cffb5&pd_rd_i=B07XLML2YS&ref_=oct_dx_dotd_B07XLML2YS" rel="noopener" title="C200">
+          <img src="https://m.media-amazon.com/images/I/719N77dAWvL._AC._SR360,460.jpg" alt="C200" width="200px" height="200px"></a>
+        </li>
+        <li>
+          <a href="https://www.amazon.es/blink-mini-2/dp/B0BWX2XRYW?ref_=Oct_d_oup_d_930858031_1&pd_rd_w=qFm0e&content-id=amzn1.sym.d03d678d-beff-4056-a706-3f86a4ad19ce&pf_rd_p=d03d678d-beff-4056-a706-3f86a4ad19ce&pf_rd_r=TSWT2A9NM5SW8YHQ061E&pd_rd_wg=CAc3e&pd_rd_r=356ced43-ffe7-427f-a87f-de1f963cffb5&pd_rd_i=B0BWX2XRYW" rel="noopener" title="Blink Mini 2">
+          <img src="https://m.media-amazon.com/images/I/41GGqAJPNzL._AC._SR360,460.jpg" alt="Blink Mini 2" width="200px" height="200px"></a>
+        </li>
+        <li>
+          <a href="https://www.amazon.es/YI-Vigilancia-Seguridad-Detecci%C3%B3n-Movimiento/dp/B01CW4B73A?ref_=Oct_d_oup_d_930858031_4&pd_rd_w=qFm0e&content-id=amzn1.sym.d03d678d-beff-4056-a706-3f86a4ad19ce&pf_rd_p=d03d678d-beff-4056-a706-3f86a4ad19ce&pf_rd_r=TSWT2A9NM5SW8YHQ061E&pd_rd_wg=CAc3e&pd_rd_r=356ced43-ffe7-427f-a87f-de1f963cffb5&pd_rd_i=B01CW4B73A" rel="noopener" title="Yi Pro">
+          <img src="https://m.media-amazon.com/images/I/71cfbwP+P6L._AC._SR360,460.jpg" alt="Yi Pro" width="200px" height="200px"></a>
+        </li>
+        <li>
+          <a href="https://www.amazon.es/NIVIAN-WiFi-Grabaci%C3%B3n-bidireccional-Deteccion-Auto-Tracking-Apta-Interior-Compatible/dp/B0B4PKNTYD?ref_=Oct_d_oup_d_930858031_6&pd_rd_w=qFm0e&content-id=amzn1.sym.d03d678d-beff-4056-a706-3f86a4ad19ce&pf_rd_p=d03d678d-beff-4056-a706-3f86a4ad19ce&pf_rd_r=TSWT2A9NM5SW8YHQ061E&pd_rd_wg=CAc3e&pd_rd_r=356ced43-ffe7-427f-a87f-de1f963cffb5&pd_rd_i=B0B4PKNTYD&th=1" rel="noopener"title="Nivian">
+          <img src="https://m.media-amazon.com/images/I/61Wkbh4u25L._AC._SR360,460.jpg" alt="Nivian" width="200px" height="200px"></a>
+        </li>
+        <li>
+          <a href="https://www.amazon.es/eufy-Security-vigilancia-Exterior-resoluci%C3%B3n/dp/B0BZ4G7S3H?ref_=Oct_d_omwf_d_930858031_4&pd_rd_w=UAMRn&content-id=amzn1.sym.c35a2f28-efd0-4227-b08f-058df40b1ee3&pf_rd_p=c35a2f28-efd0-4227-b08f-058df40b1ee3&pf_rd_r=TSWT2A9NM5SW8YHQ061E&pd_rd_wg=CAc3e&pd_rd_r=356ced43-ffe7-427f-a87f-de1f963cffb5&pd_rd_i=B0BZ4G7S3H&th=1" rel="noopener" title="S220">
+          <img src="https://m.media-amazon.com/images/I/515ghdL4kpL._AC._SR360,460.jpg" alt="S220" width="200px" height="200px"></a>
+        </li>
+        <li>
+          <a href="https://www.amazon.es/eufy-Security-inal%C3%A1mbrica-vigilancia-Compatible/dp/B0CF8R2P24?ref_=Oct_d_omwf_d_930858031_5&pd_rd_w=UAMRn&content-id=amzn1.sym.c35a2f28-efd0-4227-b08f-058df40b1ee3&pf_rd_p=c35a2f28-efd0-4227-b08f-058df40b1ee3&pf_rd_r=TSWT2A9NM5SW8YHQ061E&pd_rd_wg=CAc3e&pd_rd_r=356ced43-ffe7-427f-a87f-de1f963cffb5&pd_rd_i=B0CF8R2P24" rel="noopener" title="S340">
+          <img src="https://m.media-amazon.com/images/I/51s1abYqMWL._AC._SR360,460.jpg" alt="S340" width="200px" height="200px"></a>
+        </li>
+        <li>
+          <a href="https://www.amazon.es/eufy-Security-inal%C3%A1mbrica-inagotable-impermeable/dp/B0C9ZYHLBZ?ref_=Oct_d_omwf_d_930858031_6&pd_rd_w=UAMRn&content-id=amzn1.sym.c35a2f28-efd0-4227-b08f-058df40b1ee3&pf_rd_p=c35a2f28-efd0-4227-b08f-058df40b1ee3&pf_rd_r=TSWT2A9NM5SW8YHQ061E&pd_rd_wg=CAc3e&pd_rd_r=356ced43-ffe7-427f-a87f-de1f963cffb5&pd_rd_i=B0C9ZYHLBZ" rel="noopener" title="S120">
+          <img src="https://m.media-amazon.com/images/I/51dqxB-l1BL._AC._SR360,460.jpg" alt="S120" width="200px" height="200px"></a>
+        </li>
+        <li>
+          <a href="https://www.amazon.es/YESYAMO-Vigilancia-Exterior-15000mAh-Bidireccional/dp/B0CMZSTC2N?ref_=Oct_d_omg_d_930858031_1&pd_rd_w=EOx6Q&content-id=amzn1.sym.77256185-fd73-42e7-9780-157cd05490cb&pf_rd_p=77256185-fd73-42e7-9780-157cd05490cb&pf_rd_r=TSWT2A9NM5SW8YHQ061E&pd_rd_wg=CAc3e&pd_rd_r=356ced43-ffe7-427f-a87f-de1f963cffb5&pd_rd_i=B0CMZSTC2N&th=1" rel="noopener" title="Yesyamo">
+          <img src="https://m.media-amazon.com/images/I/71jagbYRtaL._AC._SR360,460.jpg" alt="Yesyamo" width="200px" height="200px"></a>
+        </li>
+      </ul>
+    </section>
+    <article class="article">
+      <h2>Opinion de experto</h2>
+      <p>Las cámaras de última generación con integración de inteligencia artificial permiten detectar la actitud sospechosa, focalizando su seguimiento en le individuo antes de que este proceda a perpetrar el acto ilícito.<br>José Prado Fuentes.
+      </p>
+    </article>
+  </main>
+  <footer>
+    <p>Todos los productos ofertados por Cam Security&reg; cuentan con una garantía ampliada de 5 años, no cubriendose los daños por mal uso, vandalismo, o cualesquiera que no estén directamente relacionados con un error de fabricación.</p>
+  </footer>
 </body>
 </html>
