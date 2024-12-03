@@ -10,6 +10,8 @@ li {
   list-style: none;
   background-size: cover;
   object-fit: cover;
+  box-shadow: 0px 0px 14px 6px rgba(204,204,204,1);
+  padding: 5%;
 }
 
 .nav {
@@ -41,7 +43,7 @@ a {
 
 ul {
   display: grid;
-  width: 89vw;
+  width: 88vw;
   gap: 1em;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
@@ -49,9 +51,52 @@ ul {
 h1,
 h2 {
   font-family: sans-serif;
+  text-decoration: underline;
 }
 
 footer {
   border: 2px solid black;
+}
+
+h3 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: italic;
+}
+
+img {
+  box-shadow: 0px 0px 14px 6px rgba(204,204,204,1);
+  transform: scale(var(--escala, 1));
+  transition: transform 0.25s;
+}
+  img:hover {
+    --escala: 1.2;
+    cursor:pointer;
+}
+
+@media screen and (max-width: 1023px) {
+  ul {
+    display: grid;
+    width: 85vw;
+    gap: 1em;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+}
+
+@media screen and (max-width: 799px) {
+  ul {
+    display: grid;
+    width: 82vw;
+    gap: 1em;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+}
+
+@media screen and (max-width: 649px) {
+  ul {
+    display: grid;
+    width: 75vw;
+    gap: 1em;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
 }
 
